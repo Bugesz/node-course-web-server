@@ -32,12 +32,12 @@ app.use((req, res, next) => {
 });
 
 
-app.use((req, res, next) => {
-	res.render('maintanance.hbs', {
-		pageTitle: 'Maintanance page',
-		welcomeText: 'We will come back!',		
-	});
-});
+// app.use((req, res, next) => {
+	// res.render('maintanance.hbs', {
+		// pageTitle: 'Maintanance page',
+		// welcomeText: 'We will come back!',		
+	// });
+// });
 
 app.use(express.static(__dirname + "/public"));
 
